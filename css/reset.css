@@ -14,4 +14,4 @@ table {width:100%; table-layout:fixed;}
 
 fieldset {border: none;}
 legend {display: none;}
-button, input[type=submit], input[type=reset] {background: none; cursor: pointer;}
+button, input[type=submit], input[type=reset] {background: none; cursor: pointer; border: none;}

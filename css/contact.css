@@ -26,11 +26,3 @@ select::-ms-expand {display: none;} /* 익플10이상 */
 .contact_form .btn button[type="submit"] {background: #3278ff;}
 .contact_form .btn button[type="reset"] {background: #adb5bd;}
 .contact_form .btn button:hover {opacity: 0.8;}
-
-
-/* .contact_form .btn {text-align: center; padding-top: 60px;}
-.contact_form .btn input {padding: 20px 0; width: 48%; border: none; border-radius: 5px; color: #fff; font-weight: bold; font-size: 17px; opacity: 1; transition: all 0.5s;}
-.contact_form .btn input[type="submit"] {background: #3278ff; }
-.contact_form .btn input[type="reset"] {background: #adb5bd; }
-.contact_form .btn input:hover {opacity: 0.8;} */
-
