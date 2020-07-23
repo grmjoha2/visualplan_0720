@@ -65,10 +65,10 @@
     <div id="contact_section">
         <div class="contact_box row">
             <h2>문의하기</h2>
-            <form action="#" method="post" class="query_form">
+            <form action="#" method="post" class="contact_form">
                 <fieldset>
                     <legend>문의하기</legend>
-                    <ul class="query_list">
+                    <ul class="info_list">
                         <li>
                             <label for="kind_lbl" class="tit_lbl">문의구분</label>
                             <div class="kind_box">
@@ -81,7 +81,6 @@
                                     <option value="마케팅">마케팅</option>
                                     <option value="기타">기타</option>
                                 </select>
-                                <span class="kind_arrow"></span>
                             </div>
                         </li>
                         <li>
@@ -105,13 +104,13 @@
                             <textarea name="quecon" id="quecon"></textarea>
                         </li>
                         <li>
-                            <label for="file_lbl" class="tit_lbl">이메일</label>
+                            <label for="file_lbl" class="tit_lbl">파일첨부</label>
                             <input type="file" id="file_lbl">
                         </li>
                     </ul>
                     <div class="btn">
-                        <input type="submit" value="문의하기">
-                        <input type="reset" value="작성취소">
+                        <button type="submit">문의하기</button>
+                        <button type="reset">작성취소</button>
                     </div>
                 </fieldset>
             </form>
