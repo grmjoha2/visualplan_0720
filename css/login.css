@@ -2,3 +2,14 @@
 @import "reset.css";
 @import "common.css";
 
+#login_section {padding: 235px 0 100px;}
+#login_section h2 {text-align: center; font-size: 38px; color: #222; font-weight: normal; padding-bottom: 60px;}
+#login_section .login_form {width: 38%; margin: 0 auto;}
+#login_section .login_form input[type="text"],
+#login_section .login_form input[type="password"]{width: 100%; height: 54px; line-height: 54px; background: #f8f9fa; color: #777; border: none; padding: 12px 1em; margin-bottom: 15px; border-radius: 4px;}
+#login_section .login_form button{width: 100%; height: 51px; line-height: 51px; background: #3e78ff; color: #fff; border: none; border-radius: 4px; display: inline-block; font-size: 16px; font-weight: bold;}
+
+#login_section .login_form .joinsearch {color: #555; font-size: 15px; text-align: center; padding-top: 55px;}
+#login_section .login_form .joinsearch a {display: inline-block; padding: 0 10px 0 15px; position: relative;}
+#login_section .login_form .joinsearch a:before {content: ''; position: absolute; background: #ccc; width: 1px; height: 13px; top: 50%; left: 0; transform: translateY(-50%);}
+#login_section .login_form .joinsearch a:first-child:before {display: none;}
