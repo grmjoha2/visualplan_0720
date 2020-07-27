@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+.row {max-width:1142px; margin:0 auto}
+
 #header { position:fixed; width:100%; 
     background:#fff; 
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); 
@@ -14,13 +16,12 @@
 .topmenu .search_box {position: absolute; top: 3px; left: 0;}
 .topmenu .search_box fieldset {border: 1px solid #ccc; padding-right: 5px;}
 .topmenu .search_box input {border: none; padding: 4px 0.5em;}
-.topmenu a { padding:0px 11px; position:relative; 
-    /* border-left:1px solid #d2d3d5  */ }    
+.topmenu a {padding:0px 11px; position:relative;}    
 .topmenu a:before { content:''; width:1px; 
     height:7px; background:#d2d3d5; 
     position:absolute; left:0; top:50%; 
     transform:translateY(-50%); } 
-.topmenu a:first-child:before { display:none }       
+.topmenu a:first-of-type:before{display:none}       
 .topmenu a:hover { color:rgba(0,0,0,0.8) }    
 
 .h1NavWrap { 
@@ -31,6 +32,8 @@
 .h1Nav h1 span { font-size:14px; 
      display:block;  letter-spacing:3.5px}  
 
+.h1Nav .open_nav {display: none;}
+.h1Nav .close_nav {display: none;}
 .h1Nav .nav { position:absolute; 
     top:0; right:0 }
 .h1Nav .nav .depth1 > li { 
